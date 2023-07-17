@@ -1,0 +1,32 @@
+.call-for-paper-paragraph {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin: 100px;
+    text-justify: inter-word;
+  }
+  .register-table {
+    font-size: 20px;
+    color: green;
+  }
+  .points {
+    font-size: 22px;
+    color: #2081c3;
+    font-weight: 800;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .register-table {
+      font-size: 10px;
+    }
+  }
+  .section-header {
+    margin-bottom: 50px;
+    position: relative;
+    padding-bottom: 13px;
+  }
+  
+  
+  
+  

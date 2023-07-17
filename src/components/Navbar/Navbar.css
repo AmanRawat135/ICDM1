@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+@media screen and (max-width: 800px) {
+  .navbar img {
+    width: 50px !important;
+    height: 50px;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+}
+.navbar {
+  background-color: white;
+  padding-bottom: 0;
+}
+
+ion-icon {
+  color:black;
+}
+
+.nav-link {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #2081c3;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #ffc000;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.nav-link:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.section-header {
+  margin-bottom: 50px;
+  position: relative;
+  padding-bottom: 13px;
+  color: black;
+}
+
+.section-header::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #2081c3;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-header h2 {
+  font-size: 39px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

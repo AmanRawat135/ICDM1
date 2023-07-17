@@ -1,0 +1,247 @@
+.bgimg{
+  width: 100%;
+  height: 100vh;
+  /* opacity: 0.7; */
+  margin-bottom: 20px;
+  /* background-color: grey; */
+  }
+  .bg {
+    background-color: rgba(233, 229, 229, 0.603);
+  }
+  .heading {
+    /* position: absolute; */
+    /* background-image: url("./images/callforpaper.jpg"); */
+    width: 100%;
+    height: auto;
+    /* z-index: -1; */
+    /* opacity: 0.3; */
+    color: black;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .content {
+    text-align: justify;
+    font-size: 30px;
+    font-family: "Assistant", sans-serif;
+    color: black;
+    padding: 30px;
+  }
+  
+  .paper {
+    font-family: 'Heebo';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+  }
+  .paper2 {
+    font-family: 'Heebo';
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    /* padding-top: 20px; */
+  }
+  .white-box {
+    background-color: white;
+    color: black;
+    font-family: "Assistant", sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+  }
+  .white-box2 {
+    background-color: white;
+    color: black;
+    font-family: "Assistant", sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .h1{
+    font-size: 35px;
+  }
+  /* .bg {
+      background-color: rgba(204, 8, 8, 0.603);
+    } */
+    body {
+      background-color: rgba(233, 229, 229, 0.603);
+      }
+  .white-boxcd {
+      background-color: white;
+      color: black;
+      font-family: "Assistant", sans-serif;
+      font-size: 22px;
+      margin: 10px;
+      margin-left: 150px;
+      /* margin-bottom: 10px;
+      margin-right: 10px; */
+      width: 40%;
+      /* padding: 10px; */
+  /* padding-bottom: 50px; */
+      float: left;
+      border: purple;
+  }
+  .cd {
+  color: #0578a1;
+  text-align: center;
+  }
+  .jan {
+      text-align: center;
+      color: black;
+  }
+  .white-boxv {
+      float: right;
+      background-color: white;
+      color: black;
+      font-family: "Assistant", sans-serif;
+      font-size: 22px;
+      margin-top: 10px;
+      /* margin-bottom: 10px; */
+      margin-right: 100px;
+      width: 40%;
+      padding: 0px;
+      /* padding-bottom: 50px; */
+      border: purple;
+  }
+  .v {
+      color:red;
+      text-align: center;
+      }
+      .dtu {
+          text-align: center;
+          color: black;
+      }
+      .white-boxrf {
+        
+          display: inline-block;
+          background-color: white;
+      color: black;
+      font-family: "Assistant", sans-serif;
+      font-size: 15px;
+      margin: 10px;
+      margin-left: 150px;
+      margin-right: 14px;
+      width: 81%;
+      padding: 10px;
+      /* float: inline-end; */
+      }
+      .RF {
+        font-size: 45px;
+      }
+  .cont{
+      font-size: 20px;
+  }
+  .round {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bgimg2 {
+    width: 50%;
+    height: 700px;
+  }
+  .bgimg3 {
+    width: 46%;
+    height: 600px;
+    margin-right: 50px;
+  }
+  .acc {
+    margin-top: 150px;
+    color: blue;
+    font-family: "Assistant", sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+  .mat{
+    color: red;
+    font-family: "Assistant", sans-serif;
+    text-align: center;
+    font-size: 50px;
+  }
+  .man{
+    color: black;
+    font-family: "Assistant", sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+  .white-boxAIP {
+    margin-top: 0%;
+    background-color: white;
+    margin: 55px;
+  }
+  .container1{
+    margin: 0%;
+  }
+  .container2 {
+    margin-left: 100px;
+    margin-right: 70px;
+  }
+  @media screen and (max-width: 800px) {
+    .paper{
+      margin-top: 10px;
+      margin-bottom: 0%;
+      padding: 10px;
+    }
+    .content{
+  font-size: 22px;
+  padding: 10px;
+    }
+    .white-boxcd{
+      width: 100%;
+      margin: 0%;
+      margin-top: 10px;
+    }
+  
+    .white-boxv{
+      width: 100%;
+      margin: 0%;
+      margin-top: 10px;
+    }
+  
+    .white-boxrf{
+      margin: 0%;
+      margin-top: 10px;
+      width: 100%;
+    }
+    .RF {
+      font-size: 35px;
+    }
+    .cont{
+      font-size: 10px;
+  }
+  .round {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .acc{
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .mat {
+    font-size: 35px;
+  }
+  .man{
+    font-size: 24px;
+  }
+  .bgimg2 {
+    width: 100%;
+  }
+  .bgimg3 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .white-boxAIP {
+    width: 100%;
+    margin: 0%;
+  }
+  .container2 {
+    width: 100%;
+    margin: 0%;
+    margin-top: 30px;
+  }
+  }

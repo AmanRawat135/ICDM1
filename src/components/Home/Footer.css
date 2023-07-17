@@ -1,0 +1,65 @@
+#footer {
+    background-color: #423f3e;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+  }
+  
+  h5 {
+    font-weight: 100;
+  }
+  
+  /* classes and positioning */
+  .footer-content {
+    padding: 2rem 5rem 2rem;
+  }
+  
+  .pre-det {
+    margin-left: 1rem;
+  }
+  
+  .mail {
+    margin-bottom: 1.5rem;
+  }
+  
+  .details {
+    line-height: 1.5;
+  }
+  
+  .footer-icons {
+    margin-left: 72rem;
+    padding-bottom: 10px;
+  }
+  
+  /*icons*/
+  .fas {
+    margin-right: 10px;
+  }
+  
+  .social-icons {
+    margin-left: 30px;
+  }
+  
+  hr {
+    border-top: 2px solid #fff;
+    margin: 5px 5rem;
+  }
+  
+  /*below hr*/
+  
+  .footer-links {
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  
+  .bullets {
+    display: inline;
+    padding-left: 5.2rem;
+    padding-right: 6rem;
+  }
+  
